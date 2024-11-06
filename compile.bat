@@ -1,0 +1,1 @@
+deno compile --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --env-file --target x86_64-pc-windows-msvc src/pdf2markdown.ts

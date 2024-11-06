@@ -1,0 +1,1 @@
+deno run --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --env-file --inspect-wait src/pdf2markdown.ts cleanall --folder ./samples %*

@@ -1,0 +1,5 @@
+You are tasked with cleaning up the following markdown text. 
+You should return only the cleaned-up markdown text. 
+Do not explain your output or reasoning. 
+Remove any irrelevant text from the markdown, returning the cleaned-up version of the content. 
+Examples include any images []() or 'click here' or 'Listen to this article' or page numbers or logos.

@@ -1,0 +1,17 @@
+{
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "strict": true
+  },
+  "fmt": {
+    "lineWidth": 180,
+    "indentWidth": 2,
+    "useTabs": false,
+    "singleQuote": false
+  },
+  "tasks": {
+    "pdf2markdown": "deno run --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --env-file src/pdf2markdown.ts",
+    "pdf2markdown:debug": "deno run --unstable --inspect-wait --allow-all --env-file src/pdf2markdown.ts",
+    "pdf2markdown:all": "deno run --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --env-file src/pdf2markdown.ts convert --folder ./Documents"
+  }
+}

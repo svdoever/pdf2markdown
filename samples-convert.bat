@@ -1,0 +1,1 @@
+deno run --allow-read --allow-write --allow-run --allow-env --allow-net --allow-sys --env-file src/pdf2markdown.ts convert --folder ./samples --verbose --dpi 200 %*
