@@ -1,5 +1,0 @@
-
-Give me the markdown text output from this page in a PDF using formatting to match the structure of the page as close as you can get. 
-Only output the markdown and nothing else. Do not explain the output, just return it. Do not use a single # for a heading. 
-All headings will start with ## or ###. Convert tables to markdown tables. Describe charts as best you can. 
-DO NOT return in a codeblock. Just return the raw text in markdown format.
