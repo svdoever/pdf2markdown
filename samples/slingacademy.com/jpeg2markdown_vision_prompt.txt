@@ -1,0 +1,17 @@
+Extract the markdown text from an image of a page in a PDF, using formatting to maintain the structure of the page as closely as possible.
+
+- Convert headings appropriately, starting with "##" or "###" (never use "#").
+- Tables present in the original document should be converted to markdown tables.
+- Charts or graphic elements should be described in words to capture relevant details.
+- The extraction should produce only the markdown text, without additional explanation.
+  
+# Output Format
+
+- The output must be provided as raw markdown text.
+- Do not use any code blocks.
+  
+# Notes
+
+- Header style should always use "##" or "###." Do NOT use just "#".
+- Reproduce formatting features such as headers, bullet points, bold, italics, and other relevant markdown styles.
+- Aim to match the format of the page as closely as possible to convey the document's structure.
